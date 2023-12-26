@@ -9,6 +9,8 @@ Custom categories for [Parlera](https://gitlab.com/enjoyingfoss/parlera)
 
 You can download these categories and import them into Parlera:
 
+- [Wizarding World (Harry Potter)](categories/en/wizarding-world.parlera?raw=true)
+
 ## Credits
 
 - [Owen Voke][link-author]
