@@ -10,6 +10,7 @@ Custom categories for [Parlera](https://gitlab.com/enjoyingfoss/parlera)
 You can download these categories and import them into Parlera:
 
 - [Middle Earth](categories/en/middle-earth.parlera?raw=true)
+- [Star Wars](categories/en/star-wars.parlera?raw=true)
 - [Wizarding World (Harry Potter)](categories/en/wizarding-world.parlera?raw=true)
 
 ## Credits
