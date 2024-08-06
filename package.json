@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "devDependencies": {
+    "ajv-cli": "^5.0.0",
+    "ajv-formats": "^3.0.1"
+  },
+  "scripts": {
+    "test:schema": "ajv validate -c ajv-formats -s schema.json -d '*/.data.json'"
+  }
+}
