@@ -5,6 +5,6 @@
     "ajv-formats": "^3.0.1"
   },
   "scripts": {
-    "test:schema": "ajv validate -c ajv-formats -s schema.json -d '*/.data.json'"
+    "test:schema": "ajv validate -c ajv-formats -s schema.json -d 'categories/**/*.parlera'"
   }
 }
