@@ -1,0 +1,12 @@
+{
+  "private": true,
+  "devDependencies": {
+    "ajv-cli": "^5.0.0",
+    "ajv-formats": "^3.0.1"
+  },
+  "scripts": {
+    "pretest:schema": "mkdir -p .build/categories/en && find categories/en -type f -name '*.parlera' -exec cp {} .build/{}.json \\;",
+    "test:schema": "ajv validate -c ajv-formats -s schema.json -d '.build/categories/en/*.parlera.json'",
+    "posttest:schema": "rm -rf .build"
+  }
+}

@@ -1,0 +1,50 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "Parlera Category",
+  "type": "object",
+  "properties": {
+    "name": {
+      "description": "The name of the category.",
+      "type": "string"
+    },
+    "author": {
+      "description": "The author of the category.",
+      "type": "string"
+    },
+    "source": {
+      "description": "The source of the category.",
+      "type": "string"
+    },
+    "license": {
+      "description": "The license for the category.",
+      "type": "string"
+    },
+    "emoji": {
+      "description": "The emoji to represent the category.",
+      "type": "string",
+      "format": "regex",
+      "pattern": "^\\p{Emoji}$"
+    },
+    "bgColor": {
+      "description": "The background colour code for the category",
+      "type": "integer"
+    },
+    "langCode": {
+      "description": "The ISO 639 alpha-2 identifier for the category.",
+      "type": "string",
+      "format": "regex",
+      "pattern": "[a-z]{2}"
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "description": "The question to guess the answer for.",
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "name",
+    "questions"
+  ]
+}
