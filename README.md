@@ -9,6 +9,7 @@ Custom categories for [Parlera](https://gitlab.com/enjoyingfoss/parlera)
 
 You can download these categories and import them into Parlera:
 
+- [Act It Out (Charades)](categories/en/act-it-out.parlera?raw=true)
 - [Middle Earth](categories/en/middle-earth.parlera?raw=true)
 - [Star Wars](categories/en/star-wars.parlera?raw=true)
 - [Whoniverse (Doctor Who)](categories/en/whoniverse.parlera?raw=true)
