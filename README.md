@@ -10,6 +10,7 @@ Custom categories for [Parlera](https://gitlab.com/enjoyingfoss/parlera)
 You can download these categories and import them into Parlera:
 
 - [Act It Out (Charades)](categories/en/act-it-out.parlera?raw=true)
+- [Animal Crossing](categories/en/animal-crossing.parlera?raw=true)
 - [Middle Earth](categories/en/middle-earth.parlera?raw=true)
 - [Pokémon](categories/en/pokemon.parlera?raw=true)
 - [Star Wars](categories/en/star-wars.parlera?raw=true)
